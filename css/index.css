@@ -598,12 +598,16 @@ nav .navbar .sub-nav .pc-menu {
     font-size: 14px;
     font-weight: 900;
     margin-right: 30px;
+    padding-left: 10px;
   }
   .pc-menu > li:nth-child(3) {
     margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
+  .container{
+    padding: 0;
+  }
   .main-merchandise-img > img {
     width: 100%;
     height: 431px;
@@ -622,6 +626,7 @@ nav .navbar .sub-nav .pc-menu {
     height: 320px;
     list-style-type: none;
     background-color: #f2f2f2;
+    transform: unset;
   }
   .merchandise-name {
     padding-top: 13%;
@@ -653,7 +658,9 @@ nav .navbar .sub-nav .pc-menu {
   .block-under-btn > li > a > img {
     width: 20px;
   }
-
+.under-merchandise-block{
+  padding: 0 5%;
+}
   .sub-img-inside-text {
     position: unset;
     transform: unset;
