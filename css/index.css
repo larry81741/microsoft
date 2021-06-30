@@ -72,7 +72,7 @@ nav .navbar .sub-nav .pc-menu > li:first-child:hover .drop-menu {
   display: flex;
 }
 nav .navbar .sub-nav .pc-menu > li:first-child .drop-menu {
-  display: none; 
+  /* display: none;  */
   z-index: 1;
   line-height: 20px;
 }
@@ -488,7 +488,9 @@ footer{
   .sub-nav > .pc-menu > li > a>span {
     display: none;
   }
-
+  nav .navbar .sub-nav .pc-menu .drop-menu {
+    right: -155px;
+  }
   .sub-nav {
     min-width: 0;
     min-width: 260px;
@@ -531,6 +533,9 @@ footer{
   }
   .sub-nav {
     padding-left: 0;
+  }
+  nav .navbar .sub-nav .pc-menu .drop-menu{
+    min-width: 1023px;
   }
   .merchandise-name {
     margin: 0;
